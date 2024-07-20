@@ -1,7 +1,11 @@
 import Form from "../components/Form"
+import Navbar from "../components/Navbar"
 
 function Login() {
-    return <Form route="/api/token/" method="login" />
+    return <div>
+        <Navbar />
+        <Form route="/api/token/" method="login" />
+    </div>
 }
 
 export default Login

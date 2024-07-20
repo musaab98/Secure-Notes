@@ -1,0 +1,47 @@
+nav {
+    background-color: #ffffff;
+    padding: 1rem;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  nav ul li {
+    margin: 0;
+  }
+  
+  nav ul li a {
+    color: #000;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  /* General button styles for hover and active states */
+  nav ul li a:hover {
+    background-color: #e0e0ff; /* Light blue for hover */
+  }
+  
+  nav ul li a:active {
+    background-color: #b0b0ff; /* Darker blue for active */
+  }
+  
+  /* Specific styles for the login button */
+  nav ul li a.login {
+    color: #ff0000; /* Red color for login button */
+  }
+  
+  nav ul li a.login:hover {
+    background-color: #ffcccc; /* Light red for hover */
+  }
+  
+  nav ul li a.login:active {
+    background-color: #ff9999; /* Darker red for active */
+  }
+  
